@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1861E7CC1B261C0100867152 /* MinoI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1861E7CB1B261C0100867152 /* MinoI.cpp */; };
+		1861E7CF1B261CB000867152 /* Mino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1861E7CD1B261CB000867152 /* Mino.cpp */; };
+		1861E7D31B268CD100867152 /* genMino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1861E7D11B268CD100867152 /* genMino.cpp */; };
+		1861E7D61B268DC300867152 /* Tetris.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1861E7D41B268DC300867152 /* Tetris.cpp */; };
+		1861E7D91B26907600867152 /* MinoT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1861E7D71B26907600867152 /* MinoT.cpp */; };
+		1861E7DF1B26AD8100867152 /* MinoJ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1861E7DD1B26AD8100867152 /* MinoJ.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		187AB85B1AB5D1C00041097A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1861E7CA1B261BFA00867152 /* MinoI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinoI.h; sourceTree = "<group>"; };
+		1861E7CB1B261C0100867152 /* MinoI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinoI.cpp; sourceTree = "<group>"; };
+		1861E7CD1B261CB000867152 /* Mino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mino.cpp; sourceTree = "<group>"; };
+		1861E7CE1B261CB000867152 /* Mino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mino.h; sourceTree = "<group>"; };
+		1861E7D01B268C8000867152 /* yaya */ = {isa = PBXFileReference; lastKnownFileType = folder; name = yaya; sourceTree = "<group>"; };
+		1861E7D11B268CD100867152 /* genMino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = genMino.cpp; sourceTree = "<group>"; };
+		1861E7D21B268CD100867152 /* genMino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genMino.h; sourceTree = "<group>"; };
+		1861E7D41B268DC300867152 /* Tetris.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tetris.cpp; sourceTree = "<group>"; };
+		1861E7D71B26907600867152 /* MinoT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinoT.cpp; sourceTree = "<group>"; };
+		1861E7D81B26907600867152 /* MinoT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinoT.h; sourceTree = "<group>"; };
+		1861E7DD1B26AD8100867152 /* MinoJ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinoJ.cpp; sourceTree = "<group>"; };
+		1861E7DE1B26AD8100867152 /* MinoJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinoJ.h; sourceTree = "<group>"; };
+		187AB85D1AB5D1C00041097A /* yaya */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = yaya; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187AB85A1AB5D1C00041097A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187AB8541AB5D1C00041097A = {
+			isa = PBXGroup;
+			children = (
+				1861E7DD1B26AD8100867152 /* MinoJ.cpp */,
+				1861E7DE1B26AD8100867152 /* MinoJ.h */,
+				1861E7D41B268DC300867152 /* Tetris.cpp */,
+				1861E7D11B268CD100867152 /* genMino.cpp */,
+				1861E7D21B268CD100867152 /* genMino.h */,
+				1861E7D81B26907600867152 /* MinoT.h */,
+				1861E7D71B26907600867152 /* MinoT.cpp */,
+				1861E7CA1B261BFA00867152 /* MinoI.h */,
+				1861E7CB1B261C0100867152 /* MinoI.cpp */,
+				1861E7CE1B261CB000867152 /* Mino.h */,
+				1861E7CD1B261CB000867152 /* Mino.cpp */,
+				1861E7D01B268C8000867152 /* yaya */,
+				187AB85F1AB5D1C00041097A /* yaya */,
+				187AB85E1AB5D1C00041097A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187AB85E1AB5D1C00041097A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187AB85D1AB5D1C00041097A /* yaya */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187AB85F1AB5D1C00041097A /* yaya */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = yaya;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187AB85C1AB5D1C00041097A /* yaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187AB8641AB5D1C00041097A /* Build configuration list for PBXNativeTarget "yaya" */;
+			buildPhases = (
+				187AB8591AB5D1C00041097A /* Sources */,
+				187AB85A1AB5D1C00041097A /* Frameworks */,
+				187AB85B1AB5D1C00041097A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yaya;
+			productName = yaya;
+			productReference = 187AB85D1AB5D1C00041097A /* yaya */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187AB8551AB5D1C00041097A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					187AB85C1AB5D1C00041097A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 187AB8581AB5D1C00041097A /* Build configuration list for PBXProject "yaya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 187AB8541AB5D1C00041097A;
+			productRefGroup = 187AB85E1AB5D1C00041097A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187AB85C1AB5D1C00041097A /* yaya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187AB8591AB5D1C00041097A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1861E7D91B26907600867152 /* MinoT.cpp in Sources */,
+				1861E7CF1B261CB000867152 /* Mino.cpp in Sources */,
+				1861E7CC1B261C0100867152 /* MinoI.cpp in Sources */,
+				1861E7DF1B26AD8100867152 /* MinoJ.cpp in Sources */,
+				1861E7D61B268DC300867152 /* Tetris.cpp in Sources */,
+				1861E7D31B268CD100867152 /* genMino.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		187AB8621AB5D1C00041097A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		187AB8631AB5D1C00041097A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		187AB8651AB5D1C00041097A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187AB8661AB5D1C00041097A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187AB8581AB5D1C00041097A /* Build configuration list for PBXProject "yaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AB8621AB5D1C00041097A /* Debug */,
+				187AB8631AB5D1C00041097A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187AB8641AB5D1C00041097A /* Build configuration list for PBXNativeTarget "yaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187AB8651AB5D1C00041097A /* Debug */,
+				187AB8661AB5D1C00041097A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187AB8551AB5D1C00041097A /* Project object */;
+}
